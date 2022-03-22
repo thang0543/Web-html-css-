@@ -17,11 +17,11 @@ body{
 .colum .name{
     font-variant: small-caps;
     color:darkorange;
+    font-size: 25px;
 }
 .colum img{
     width: 95%;
     height:100%;
-    margin: 10px 0;
 }
 .colum .price{
     position: absolute;
@@ -39,7 +39,10 @@ body{
 }
 .colum .new{
     position: absolute;
-    top:0px;
-    right: 0px;
-    width: 20%;
+    top:-1px;
+    right: -1px;
+    text-align: end;
+}
+.colum .new img{
+    width: 24%;
 }

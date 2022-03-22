@@ -12,7 +12,7 @@ ul{
     box-shadow: 0 0 2px #ccc;
 }
 ul li a{
-    background: url(./images/icon.png) no-repeat 10px center;
+    background: url(./images/b1.PNG) no-repeat 10px center;
      text-decoration: none;
      border-bottom: 1px dotted orangered;
      padding: 8px 5px 8px 30px;
@@ -23,7 +23,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background: url(./images/icon_hover.png) no-repeat 10px center;
+    background: url(./images/b2.PNG) no-repeat 10px center;
     background-color: darkorange;
     color: aliceblue;
     border-bottom: 1px dotted white;

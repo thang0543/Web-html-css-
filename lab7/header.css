@@ -26,8 +26,9 @@ body{
     position: absolute;
     top:0px;
     right: 0px;
-    border-bottom-left-radius:30px ;
+    border-bottom-left-radius:40px ;
     background-color:orange ;
+    box-shadow: 20px 10px 17px #ccc;
 }
 .Login_Resgistration li{
     display: inline-block;

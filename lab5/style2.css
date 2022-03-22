@@ -13,6 +13,8 @@
     font-variant: small-caps;
     color: blue;
     font-size: large;
+    font-weight: bold;
+    margin:8px;
 }
 .sanPham img{
     max-width: 95%;
@@ -24,5 +26,5 @@
 }
 .sanPham del{
     color:gray;
-    margin:0 5px;
+    margin:0 10px;
 }
