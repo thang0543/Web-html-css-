@@ -1,0 +1,61 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+.content{
+    position: relative;
+}
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    bottom: 0px;
+}
+.menu   li{
+    display: inline-block;
+    list-style: none;
+    font-variant: small-caps;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding:0px 20px;
+}
+.Login_Resgistration{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    border-bottom-left-radius:40px ;
+    background-color:orange ;
+    box-shadow: 20px 10px 17px #ccc;
+}
+.Login_Resgistration li{
+    display: inline-block;
+    list-style: none;
+    font-variant: small-caps;
+}
+.Login_Resgistration a{
+    text-decoration: none;
+    color: white;
+    padding:0px 10px;
+}
+.TextName{
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    left:2%;
+    bottom:15%;
+}
+.TextName h1{
+    text-shadow:4px 4px 20px rgb(247, 170, 4);
+    color:aliceblue;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.TextName strong{
+    letter-spacing: 2px;
+    color:rgb(224, 78, 34);
+    font-weight: bold;
+    font-variant: small-caps;
+}

@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+img{
+    padding:10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(249, 253, 11);
+    box-shadow: 0 0 5px rgb(152, 226, 14);
+}
+img:hover{
+    box-shadow: 0 0 20px red;
+    background-color: rgb(116, 164, 228);
+}

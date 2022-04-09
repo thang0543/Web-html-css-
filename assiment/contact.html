@@ -1,31 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./images/fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="./contact.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="headerImage">
         <img src="./images/banner.jpg" alt="" width="100%">
     </div>
     <div class="menu">
         <ul>
-            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Trang chủ</a></li>
             <li>
                 <a href="#">Giới thiệu</a>
                 <i class="fa-solid fa-caret-down"></i>
                 <ul>
-                    <li><a href="organizational .html">Sơ đồ tổ chức</a></li>
                     <li><a href="library.html">Thư viện</a></li>
+                    <li class="nav">
+                        <a href="#">Sơ Đồ tổ chức
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <ul>
+                            <li><a href="./organizationalChart/toan.html">Tổ Toán</a></li>
+                            <li><a href="./organizationalChart/LyTin.html">Tổ lý-Tin-Công Nghệ</a></li>
+                            <li><a href="./organizationalChart/HoaSinh.html">Tổ Hóa-Sinh</a></li>
+                            <li><a href="./organizationalChart/VanNgoaiNgu.html">Tổ Văn-Ngoại Ngữ </a></li>
+                            <li><a href="./organizationalChart/XaHoiTheDucQuocPhong.html">Tổ Xã hội-Thể Dục-Quốc
+                                    Phòng</a></li>
+                            <li><a href="./organizationalChart/toHanhChinh.html">Tổ Hành Chính</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li><a href="#">Liên hệ</a></li>
             <li><a href="Feedback.html">Góp ý</a></li>
             <li><a href="question.html">Hỏi & đáp</a></li>
         </ul>
-    </div>
+        <div class="boxSeach">
+            <div class="seach">
+                <form action="">
+                    <input type="search" name="" id="" placeholder="tìm kiếm" required>
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="contact">
+            <h1> Liên hệ chúng tôi </h1>
+            <div class="schoolName">
+                <div class="name">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Trung học phổ thông đông anh </p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d59534.178999965145!2d105.81781603709997!3d21.156927144916814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x31350122994fd503%3A0x2455ad172a249f1f!2zVHLGsOG7nW5nIFRIUFQgxJDDtG5nIEFuaCwgNVY0MytQNFcsIMSQw7RuZyBBbmgsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!3m2!1d21.1568507!2d105.8528358!5e0!3m2!1svi!2s!4v1648555116042!5m2!1svi!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="schoolInformation">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Tổ 8 - Thị Trấn Đông Anh,Hà Nội</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>c3donganh@hanoiedu.vn</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <p> 024.6663.7679</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-globe"></i>
+                    <p> http://thptdonganh.edu.vn</p>
+                </div>
+            </div>
+        </div>
+        <div class="food">
+            <p> Trường THPT Đông Anh </p>
+            <p> Địa chỉ: Tổ 8 - Thị Trấn Đông Anh - Đông Anh - Hà Nội </p>
+            <p> Điện Thoại: 024.6663.7679 </p>
+            <p> Email: c3donganh@hanoiedu.vn </p>
+            <p> Website:<a href="">http://thptdonganh.edu.vn</a></p>
+
+        </div>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+table{
+    border-collapse:collapse ;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+th:first-child{
+    width: 0pt;
+}
+td, th{
+    height: 54.25pt;
+    width: 1000pt;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+th{
+    background-color: aqua;
+}
+.content{
+    float: right;
+}
