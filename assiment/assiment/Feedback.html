@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Feedback.css">
+    <link rel="stylesheet" href="question.css">
+    <link rel="stylesheet" href="./images/fontawesome-free-6.1.0-web/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="headerImage">
+        <img src="./images/banner.jpg" alt="" width="100%">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li>
+                <a href="#">Giới thiệu</a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul>
+                    <li><a href="library.html">Thư viện</a></li>
+                    <li class="nav">
+                        <a href="#">Sơ Đồ tổ chức
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        
+                        <ul>
+                            <li><a href="./organizationalChart/toan.html">Tổ Toán</a></li>
+                            <li><a href="./organizationalChart/LyTin.html">Tổ lý-Tin-Công Nghệ</a></li>
+                            <li><a href="./organizationalChart/HoaSinh.html">Tổ Hóa-Sinh</a></li>
+                            <li><a href="./organizationalChart/VanNgoaiNgu.html">Tổ Văn-Ngoại Ngữ </a></li>
+                            <li><a href="./organizationalChart/XaHoiTheDucQuocPhong.html">Tổ Xã hội-Thể Dục-Quốc Phòng</a></li>
+                            <li><a href="./organizationalChart/toHanhChinh.html">Tổ Hành Chính</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li><a href="#">Góp ý</a></li>
+            <li><a href="question.html">Hỏi & đáp</a></li>
+        </ul>
+        <div class="boxSeach">
+            <div class="seach">
+                <form action="">
+                    <input type="search" name="" id="" placeholder="tìm kiếm" required>
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="feedback" >
+        <div class="ask">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="title">
+                    <p>Ý kiến của bạn</p>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <div class="col">
+                    <div class="formGroup">
+                        <p>họ và tên: </p>
+                        <div class="icon">
+                            <input type="text" name="userName" id="" class="formControl" placeholder="User name">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="formGroup">
+                    <p>email: </p>
+                    <div class="icon">
+                        <input type="email" name="email" id="" class="formControl" placeholder="Email">
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <p>tiêu đề: </p>
+                    <div class="icon">
+                        <input type="text" name="header" id="" class="formControl">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <p>Nội dung: </p>
+                    <textArea placeholder="content" cols="45"> </textArea>
+                </div>
+                <div class="formGroup button_form">
+                    <input type="submit" value="giử đi" class="btn">
+                    <input type="reset" value="viết lại" class="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="food">
+        <p> Trường THPT Đông Anh </p>
+        <p> Địa chỉ: Tổ 8 - Thị Trấn Đông Anh - Đông Anh - Hà Nội </p>
+        <p> Điện Thoại: 024.6663.7679 </p>
+        <p> Email: c3donganh@hanoiedu.vn </p>
+        <p> Website:<a href="">http://thptdonganh.edu.vn</a></p>
+       
+    </div>
+</body>
+</html>
